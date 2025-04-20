@@ -232,7 +232,8 @@ function HomePage() {
 function SnippetPage() {
   const { snippetId } = useParams();
   const [copied, setCopied] = useState(false);
-  const code = `«Бедный человек ест плов, богатый человек ест только плов»`;
+  const code = `«Бедный человек ест плов, 
+богатый человек ест только плов»`;
 
   function getLineNumbers() {
     let arr = [];
